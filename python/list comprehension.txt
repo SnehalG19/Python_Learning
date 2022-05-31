@@ -1,0 +1,7 @@
+list comprehension
+they are ordered,changrablr and allow duplicates
+function to use in list
+print(len(list)) =for length of function
+print(type(list))
+print(list(5)) = to access 6th element of list
+print(list(0:5) = to access 1 to 5th element

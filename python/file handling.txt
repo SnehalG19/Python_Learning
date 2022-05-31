@@ -1,0 +1,58 @@
+file handling
+1.
+f=open("snehal.txt",)
+#this way the file gets open
+2.
+f=open("snehal.txt","r")
+print(f.read())
+#r is used to read the file
+3.
+f=open("snehal.txt","r")
+print(f.read(5))
+#by doing this 5 characters will be read
+4.
+f=open("snehal.txt","r")
+print(f.readline())
+#it will read whole line if you print it twice it will print two lines likewise
+5.
+f=open("snehal.txt","r")
+for x in f:
+    print(x)
+#reading file using for loop
+6.
+f=open("snehal.txt","r")
+for x in f:
+    print(x)
+#to close file
+f.close()
+7.
+f=open("snehal.txt","a")
+f.write("thank you")
+#a is used to append the new line in file
+f.close()
+
+f=open("snehal.txt","r")
+print(f.read())
+#by this way a new line has been add
+8.
+f=open("snehal.txt","w")
+f.write("thank you")
+#w is used to append the new line in file while other lines will be gone
+f.close()
+
+f=open("snehal.txt","r")
+print(f.read())
+#by this way only a new line has been add
+9.
+import os
+#by importing os we can remove file like follow
+os.remove("slehal.txt")
+#write the file name which you want to delete
+10.
+import os
+#we can also use if to remove file
+if os.path.exists("slehal.txt"):
+    os.remove("slehal.txt")
+else:
+    print("file is not present")
+

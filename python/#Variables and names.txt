@@ -1,0 +1,53 @@
+#Variables and names
+1}
+x=str(5)
+y=int(5)
+z=float(5)
+
+print(x)
+print(y)
+print(z)
+o/p=
+5
+5
+5.0
+
+rules
+#variable must start with lettwer or_
+#it cannot start with number
+#it can only contain alphanumaeric character
+#they can contain
+#letters
+#numbers
+#underscores
+
+2}
+a="apple"
+b="ball"
+c="cat"
+
+print(a)
+print(b)
+print(c)
+
+x,y,z="bannanas","cherry","oranges"
+print(x)
+print(y)
+print(z)
+o/p=
+apple
+ball
+cat
+bannanas
+cherry
+oranges
+
+3}
+x=y=z="oranges"
+print(x)
+print(y)
+print(z)
+o/p=
+oranges
+oranges
+oranges

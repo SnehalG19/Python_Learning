@@ -1,0 +1,73 @@
+#python learning
+types of errors
+>>> print "hello"
+  File "<stdin>", line 1
+    print "hello"
+          ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print("hello")?
+>>> l+[1,2,3]
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'l' is not defined
+>>> l=[1,2,3]
+>>> l[3]
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+IndexError: list index out of range
+>>> d={'1':"qwe",'2':"wer}
+  File "<stdin>", line 1
+    d={'1':"qwe",'2':"wer}
+                         ^
+SyntaxError: EOL while scanning string literal        
+>>> d={'1':"qwe",'2':"wer"}
+>>> d[3]
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+KeyError: 3
+>>> from match import cube
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ModuleNotFoundError: No module named 'match'
+>>> it=itr([1,2,3])
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'itr' is not defined
+>>> it=iter([1,2,3])
+>>> next(it)
+1
+>>> next(it)
+2
+>>> next(it)
+3
+>>> next(it)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+StopIteration
+>>> "1234"+12
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: can only concatenate str (not "int") to str
+>>> int('xyz')
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ValueError: invalid literal for int() with base 10: 'xyz'
+>>> age
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'age' is not defined
+>>> it
+<list_iterator object at 0x0156AF70>
+>>> l
+[1, 2, 3]
+>>> a
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'a' is not defined
+>>> x=100/0
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ZeroDivisionError: division by zero
+>>> name=input('enter your name')
+enter your nameTraceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+KeyboardInterrupt
