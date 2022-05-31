@@ -1,0 +1,9 @@
+codewithharry
+#1
+
+command prompt instructions
+use cd desktop,cd python
+then use code to open
+
+comments, escape sequence and print statement
+how to comment  using  short keys(use= control+/)
